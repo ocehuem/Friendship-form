@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homework2</title>
+    <link rel="stylesheet" href="hw3.css">
+</head>
+<body>
+    <form action="">
+        <fieldset id="fs1">
+            <h1>Friendship Form</h1>
+            <label for="name" id="name-label" >Name</label><br>
+            <input id="name" name="name" required placeholder="Enter your name" type="text"/><br><br>
+            <label for="number" id="number-label">&amp; Age(Optional)</label><br>
+            <input id="number" name="number" placeholder="Age" type="number"  min="1" max="150"/><br><br>
+            <label for="profile">Profile picture</label><br>
+            <input type="file" id="profile" name="profile"><br><br>
+            <label for="dob">Enter your date of birth along with location of birth</label><br>
+            <input type="datetime-local" id="dob" name="dob"><br><br>
+            <hr>
+            <label for="range">rate this form &lt;"-"&gt;</label>
+            <input type="range" min="1" max="5" id="range" name="range"><br><br>
+            <label for="instalink">add your instagram link</label><br>
+            <input type="url" id="instalink" name="instalink"><br><br>
+            <label for="week">Enter your holiday vacation week</label><br>
+            <input type="week" id="week" name="week"><br><br>
+            <label for="favcolor">Your favorite colour</label><br>
+            <input type="color" id="favcolor"><br><br>
+        </fieldset>
+        <fieldset id="fs2">
+            <label for="email" id="email-label">&COPY;Email</label><br>
+            <input id="email" name="email" required placeholder="Enter your email" type="email"/><br>
+            <label for="password">Password</label><br>
+            <input type="password" id="password" name="password"><br>
+            <label for="phone">Phone number</label><br>
+            <input type="text" name="phone" id="phone"><br>
+        </fieldset>
+        <fieldset class="fs3">
+            <label>Which option best describes your current role?</label><br>
+            <select id="dropdown">
+              <option value="">Select current role</option>
+              <option value="1">Student</option>
+              <option value="2">Full Time Job</option>
+              <option value="3">Full Time Learner</option>
+              <option value="4">Prefer not to say</option>
+              <option value="5">Other</option>
+              </select><br>
+              <br>
+              <label>Would you like to be my friend?</label><br/>
+              <label for="Definitely"><input id="Definitely" type="radio" name="recommend"/>Definitely</label><br/>
+              <label for="maybe"><input id="maybe" type="radio" name="recommend" />maybe</label><br><br>
+              <textarea name="praise" id="" cols="30" rows="10" placeholder="How is this form?"></textarea><br>
+              <input type="checkbox" id="agree"><label for="agree" name="agree">I hereby agree to all your <a href="#">conditions</a></label><br><br>
+            </fieldset>
+              <hr>
+              <input type="submit" placeholder="SUBMIT" value="SUBMIT" class="SUBMIT">
+     </form>
+</body>
+</html>

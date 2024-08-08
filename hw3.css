@@ -1,0 +1,38 @@
+
+body{background-image: url(https://hips.hearstapps.com/clv.h-cdn.co/assets/18/02/4000x2229/gallery-1515470256-levi-guzman-268866.jpg?resize=640:*);
+    color:white;
+}
+h1{background-color: purple;
+    padding: 1vw;
+color: gold;}
+input{background-color: black;
+    border-radius: 15px;
+     }
+#fs1 > input{width:300px;}
+#fs1{background-color:hsl(20, 98%, 50%) ;
+    margin:auto;
+    width:50%;
+}
+#fs2 > input{width: 300px;}
+label{margin-top: 2cm;}
+#fs2{background-color: #c6fd00;
+    color: black;
+    margin: auto;
+    width: 50%;
+}
+.fs3{background-color: rgba(254, 93, 173, 0.879);
+    width:50%;
+    margin: auto;}
+fieldset{border: 1px solid rgb(144, 140, 140);
+         padding: 2rem;}
+input[type="submit"] {text-align: center;
+            display: block;
+            width: 60%;
+            margin: 1em auto;
+            height: 2em;
+            font-size: 1.1rem;
+            background-color:skyblue;
+            border-color: white;
+            min-width: 300px;}
+input{tepe}
+onnbkaibphf
